@@ -11,7 +11,7 @@ body {
 strong { font-weight: 500; }
 
 a, a:hover, a:focus {
-	color: #ee5356;
+	color: #374864;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -38,7 +38,7 @@ img { max-width: 100%; }
 	line-height: 32px;
 }
 
-.blue { color: #ee5356; }
+.blue { color: #374864; }
 
 ::-moz-selection { background: #32455f; color: #fff; text-shadow: none; }
 ::selection { background: #32455f; color: #fff; text-shadow: none; }
@@ -238,7 +238,7 @@ ul.navbar-nav {
 	padding: 15px 0;
 }
 
-.navbar-inverse ul.navbar-nav li a { color: #fff; opacity: 0.8; border-bottom: 1px solid transparent; }
+.navbar-inverse ul.navbar-nav li a { color: #fff; opacity: 0.8; border-bottom: 1px solid transparent; text-transform: uppercase;}
 .navbar-inverse ul.navbar-nav li a:hover { color: #fff; opacity: 1; border-bottom: 1px solid #fff; }
 .navbar-inverse ul.navbar-nav li a:focus { color: #fff; outline: 0; opacity: 1; border-bottom: 1px solid #fff; }
 
@@ -261,7 +261,7 @@ ul.navbar-nav {
 /***** Top content *****/
 
 .inner-bg {
-    padding: 120px 0 170px 0;
+    padding: 80px 0 170px 0;
 }
 
 .top-content .text {
@@ -346,7 +346,7 @@ ul.navbar-nav {
 
 .features-box .features-box-icon {
     font-size: 80px;
-    color: #ee5356;
+    color: #374864;
     line-height: 80px;
 }
 
@@ -384,7 +384,7 @@ ul.navbar-nav {
 	width: 60px;
 	height: 60px;
 	padding-top: 6px;
-	background: #ee5356;
+	background: #374864;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
     font-size: 40px;
     color: #fff;
@@ -461,7 +461,7 @@ ul.navbar-nav {
 	left: 95px;
 	width: 32px;
 	height: 32px;
-	background: #ee5356;
+	background: #374864;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 	font-size: 24px;
 	color: #fff;
@@ -501,7 +501,7 @@ ul.navbar-nav {
     line-height: 54px;
 }
 .pricing-box-best .pricing-box-price {
-	background: #ee5356;
+	background: #374864;
 	color: #fff;
 }
 
@@ -521,7 +521,7 @@ ul.navbar-nav {
 	width: 63px;
 	height: 63px;
 	padding-top: 5px;
-	background: #ee5356;
+	background: #374864;
 	border: 3px solid #fff;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
@@ -540,7 +540,7 @@ ul.navbar-nav {
 	color: #888;
 }
 .pricing-box.pricing-box-best h3 {
-	background: #ee5356;
+	background: #374864;
 	color: #fff;
 }
 
@@ -608,7 +608,7 @@ ul.navbar-nav {
 	bottom: 10px;
 	left: 0;
 	padding: 3px 5px;
-	background: #ee5356;
+	background: #374864;
 	font-size: 14px;
 	color: #fff;
 	line-height: 15px;
@@ -622,7 +622,7 @@ ul.navbar-nav {
 }
 
 .about-us-box .about-us-social a { color: #ddd; }
-.about-us-box .about-us-social a:hover, .about-us-box .about-us-social a:focus { color: #ee5356; }
+.about-us-box .about-us-social a:hover, .about-us-box .about-us-social a:focus { color: #374864; }
 
 
 /***** Testimonials *****/
@@ -656,7 +656,7 @@ ul.navbar-nav {
 	width: 42px;
 	height: 42px;
 	padding-top: 3px;
-	background: #ee5356;
+	background: #374864;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 	font-size: 32px;
 	color: #fff;
@@ -692,8 +692,8 @@ ul.navbar-nav {
     -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
 
-.testimonial-list .nav-tabs li a:hover { border: 0; background: #ee5356; }
-.testimonial-list .nav-tabs li.active a { background: #ee5356; }
+.testimonial-list .nav-tabs li a:hover { border: 0; background: #374864; }
+.testimonial-list .nav-tabs li.active a { background: #374864; }
 .testimonial-list .nav-tabs li.active a:focus { border: 0; }
 
 
@@ -709,7 +709,7 @@ footer {
 }
 
 .footer-social a { color: #ddd; }
-.footer-social a:hover, .footer-social a:focus { color: #ee5356; }
+.footer-social a:hover, .footer-social a:focus { color: #374864; }
 
 .footer-copyright {
 	margin-top: 25px;

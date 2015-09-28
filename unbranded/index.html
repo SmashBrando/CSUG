@@ -83,9 +83,7 @@
 	                            	Being a professional in business management means you are the one companies turn to in order to help them achieve and maintain success.  The knowledge and experience you will gain as part of your B.S. in Business Management will help you become a valued part of any organization. 
                             	</p>
                             </div>
-                            <div class="top-big-link wow fadeInUp">
-                            	<a class="btn btn-link-2 scroll-link" href="#features">Learn more</a>
-                            </div>
+                            
                         </div>
                         <div class="col-sm-5 form-box wow fadeInUp">
                         	<div class="form-top">
@@ -97,32 +95,53 @@
                         			<span aria-hidden="true" class="typcn typcn-pencil"></span>
                         		</div>
                             </div>
-                            <div class="form-bottom">
-			                    <form role="form" action="" method="post">
-			                    	<div class="form-group">
-			                    		<label class="sr-only" for="form-first-name">First name</label>
-			                        	<input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control" id="form-first-name">
-			                        </div>
-			                        <div class="form-group">
-			                        	<label class="sr-only" for="form-last-name">Last name</label>
-			                        	<input type="text" name="form-last-name" placeholder="Last name..." class="form-last-name form-control" id="form-last-name">
-			                        </div>
-			                        <div class="form-group">
-			                        	<label class="sr-only" for="form-email">Email Address</label>
-			                        	<input type="text" name="form-email" placeholder="Email Address..." class="form-email form-control" id="form-email">
-			                        </div>
-			                        <div class="form-group">
-			                        	<label class="sr-only" for="form-phone">Phone Number</label>
-			                        	<input type="text" name="form-email" placeholder="Phone Number..." class="form-phone form-control" id="form-phone">
-			                        </div>
-			                        <button type="submit" class="btn">Request More Information Now!</button>
+		                    <div id="wrapper_rfi_main" class="form-bottom tblr5">
+								<p id="rfi_main-message">* Required</p>
+								<form id="rfi_main" action="" method="POST" class="form" role="form">
+									<input type="hidden" name="oid" value="00DA0000000Jdty" />
+									<!-- round robbin: needs to be set to 1 -->
+								 	<input type="hidden" name="00NF0000008XM9P" value="1" />
+									<input type="hidden" name="Campaign_ID" value="701F00000003o6n" /> 
+									<input type="hidden" name="member_status" value="Requested Information" /> 
+									<input type="hidden" name="recordType" value="012F0000000jCoo" /> 
+
+
+								 	<!-- ======================================================================== -->
+								 	<!-- these two fields need to be unique to each landing page, but follow the  -->
+								 	<!-- standard format that's laid out. all other fields should be left alone.  -->
+								 	<!-- ======================================================================== -->
+								 	<!-- how did you hear about us? (needs to match "lead_source") -->
+								 	<input type="hidden" name="00NF0000008WZsI" id="how" value="web_lp_yp_military" />
+								 	<!-- main lead tracking field -->
+									<input type="hidden" name="lead_source" value="web_lp_yp_military" />
+									<!-- return url thank you page -->
+									<input type="hidden" name="retURL" value="http://csuglobal.edu/thankyou/yp-military" />
+								 	<!-- ======================================================================== -->
+
+								 	<div class="form-group">
+								 		<label class="sr-only" for="first_name">First name</label>
+										<input id="first_name" type="text" name="first_name" size="20" maxlength="40" placeholder="First Name *" class="req form-first-name form-control" />
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="last_name">Last name</label>
+										<input id="last_name" type="text" name="last_name" size="20" maxlength="80" placeholder="Last Name *" class="req form-last-name form-control" />
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="email">Email Address</label>
+										<input id="email" type="text" name="email" size="20" maxlength="80" placeholder="Email *" class="req form-email form-control" />
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="phone">Phone Number</label>
+										<input id="phone" type="text" name="phone" size="20" maxlength="40" placeholder="Phone *" class="req form-phone form-control" />
+									</div>
+									<button type="submit" class="btn">Start A Better Future Today!</button>
 			                        <p class="submit-disclaimer">By submitting this form I agree that I can be contacted using the email or phone number that I provided.</p>
 			                        <!-- <div class="form-links">
 			                        	<a href="#" class="launch-modal" data-modal-id="modal-privacy">Privacy Policy</a> - 
 			                        	<a href="#" class="launch-modal" data-modal-id="modal-faq">FAQ</a>
 			                        </div> -->
-			                    </form>
-		                    </div>
+								</form>
+							</div>
                         </div>
                     </div>
                 </div>
@@ -403,7 +422,7 @@
 	        <div class="container">
 	            <div class="row">
                     <div class="col-sm-12 footer-copyright">
-                    	&copy;2015 <a href="https://csuglobal.edu/" target="_blank">CSU Gloabl</a>
+                    	&copy;2015 <a href="https://csuglobal.edu/" target="_blank">CSU Global</a>
                     </div>
                 </div>
 	        </div>
@@ -508,6 +527,7 @@
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/retina-1.1.0.min.js"></script>
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
         <script src="assets/js/scripts.js"></script>
         
         <!--[if lt IE 10]>

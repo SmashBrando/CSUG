@@ -1,3 +1,29 @@
+$(document).ready(function() {
+	$("#rfi_main").validate({
+		errorClass: "invalid",
+		rules: {
+			first_name: "required",
+			last_name: "required",
+			email: {
+				required: true,
+				email: true
+			},
+			phone: "required"
+		},
+		submitHandler: function(form) {
+			$('#how').val($('#how').val() + g.utm_source);
+			// submit url for the form. Ringlead is a service that looks for duplicates and sorts them out before they get to salesforce.
+			$('form#rfi_main').attr('action', 'https://salesforce.ringlead.com/cgi-bin/3148/1/dedup.pl');
+			// replace code to remove the form and replace it with a message
+			$('#rfi_main').fadeOut('fast');
+			var text = "<h2>Thank You!</h2><p>Your information has been submitted and we will contact you shortly.";
+			$('#wrapper_rfi_main').html(text).addClass('thankyou');
+		},
+		errorPlacement: function(error, element) {
+		    $('#rfi_main-message').html('<span style="color:#ee5356;">Please fill in all required fields.</span>');
+		}		
+	});
+});
 
 function scroll_to(clicked_link, nav_height) {
 	var element_class = clicked_link.attr('href').replace('#', '.');
