@@ -51,7 +51,7 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/4.jpg", {
+    $('.top-content').backstretch("assets/img/backgrounds/10.jpg", {
     	centeredY: false
     });
     $('.call-to-action-container').backstretch("assets/img/backgrounds/military-small.jpg", {
