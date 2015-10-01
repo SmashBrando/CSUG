@@ -54,7 +54,7 @@ jQuery(document).ready(function() {
     $('.top-content').backstretch("assets/img/backgrounds/1.jpg", {
     	centeredY: false
     });
-    $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg", {
+    $('.call-to-action-container').backstretch("assets/img/backgrounds/community-college.jpg", {
     	centeredY: false
     });
     

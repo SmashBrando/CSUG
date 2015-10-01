@@ -51,10 +51,10 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.jpg", {
+    $('.top-content').backstretch("assets/img/backgrounds/4.jpg", {
     	centeredY: false
     });
-    $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg", {
+    $('.call-to-action-container').backstretch("assets/img/backgrounds/military-small.jpg", {
     	centeredY: false
     });
     

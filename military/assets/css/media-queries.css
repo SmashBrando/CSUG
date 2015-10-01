@@ -81,6 +81,8 @@
 	.testimonial-list .nav-tabs { margin-top: 20px; text-align: center; }
 	.testimonial-list .testimonial-image .testimonial-icon { display: none; }
 
+	.brand-tag {font-size:10px; text-align: left;}
+	.brand-tag .online {font-size: 10px;}
 }
 
 @media (max-width: 415px) {

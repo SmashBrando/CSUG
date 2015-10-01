@@ -51,10 +51,10 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.jpg", {
+    $('.top-content').backstretch("assets/img/backgrounds/9.jpg", {
     	centeredY: false
     });
-    $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg", {
+    $('.call-to-action-container').backstretch("assets/img/backgrounds/under-graduate.jpg", {
     	centeredY: false
     });
     
