@@ -1,0 +1,708 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSU-Global Campus | Live Locally, Learn Globally</title>
+    <meta name="robots" content="noindex,nofollow" />
+    
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="http://fast.fonts.net/jsapi/fb7162cd-494b-4e05-9803-a3100e269fc7.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="js/vendor/placeholder.js"></script>
+    <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">
+    Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+    <![endif]-->
+ 
+    <div id="wrapper">
+
+        <header class="main-header clearfix">
+            <div class="row">
+                <div class="large-12 columns">
+                    <div id="take-a-next-step">TAKE THE NEXT STEP<span>Classes start <span class="startDateContainer">soon</span></div>
+                    <div class="logo">
+                        <a href="./"><img src="img/CSU-logo.png" style="border: 0px;" alt="CSU-Global Online Campus"></a>
+                    </div>
+                    
+                    <a href="tel:877-522-2250" class="telephone-anchor">
+                        <div class="give-us-a-call-mobile header show-for-small round">
+                            Tap to call
+                            <span class="telephone-text">
+                                877-522-2250
+                            </span>
+                        </div>
+                    </a>
+
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="#why-us">Why CSU-Global</a></li>
+                            <li><a href="bachelors.html">Undergraduate</a></li>
+                            <li><a href="masters.html">Graduate</a></li>
+                            <li class="hide-for-small"><a href="#" onClick="showRFI()">Request Information</a></li>
+                            <li><a href="#" onClick="showMobileRFI()" id="mobile-rfi-nav">Request Information</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="large-12 columns show-for-small brown-bar clearfix">
+                    Classes start <span class="startDateContainer">soon</span><i class="fa fa-arrow-circle-o-right"></i> <button onClick="showMobileRFI()" class="round">Request Info</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- screen only featured block: begin -->
+        <section class="featured-area">
+            <div class="bg hide-for-small">
+                <img src="img/content/main.jpg" alt="">
+            </div>
+
+            <div class="action-block clearfix">
+                <div class="row">
+                    <!-- video block: begin -->
+                    <div class="flex-video widescreen vimeo">
+                       <video id="primary-video" controls style="display:none;" poster="img/video-poster.jpg">
+                            <source src="http://54cc9fb34820b11fcdf7-e9a10d234794911fd87486f49edabbe0.r24.cf2.rackcdn.com/CSU-Global-Anthem-v1.webm" type="video/webm">
+                            <source src="http://54cc9fb34820b11fcdf7-e9a10d234794911fd87486f49edabbe0.r24.cf2.rackcdn.com/CSU-Global-Anthem-v1.mp4" type="video/mp4">
+                            
+                        </video>
+                        <div class="call-action-text">
+                            <h2>Online Programs Built for Adult Learners
+                            </h2>
+                            <p>At the nation's first fully online state university, your opportunity to make a better future begins.</p>
+                        </div>
+                    </div>
+                    
+                    <div id="restart-video" style="display: none"><a href="#">Restart the video</a>
+                    </div>
+                    <!-- video block: end -->
+                    <!-- after video block -->
+                    <div class="after-video-block clearfix">
+                        <div class="take-block">
+                            <h6>Talk to an enrollment counselor now</h6>
+                            Connect with our enrollment counselors to discuss your goals and get the one-on-one support you need to achieve them.
+                            <div class="triangle"></div>
+                        </div>
+
+                        <div class="take-block">
+                            <h6>Ask questions about a program</h6>
+                            From financial aid to which degree program is right for you,we have the fast and easy answers to help you get started.
+                            <div class="triangle"></div>
+                        </div>
+                        <div class="take-block">
+                            <h6>Learn more about CSU-Global Campus</h6>
+                            There’s more to discover about the nation’s first independent, 100% online University and we’re here to help.
+                            <div class="triangle"></div>
+                        </div>
+                    </div>
+                    <!--after video block -->
+                    <div class="clearfix call-action-holder">
+
+                        <div class="float-right">
+                            <div class="call-action-block-holder" id="phone">
+                                <div class="call-action-block">
+                                    <div class="click-action clearfix phone">
+                                        <span class="icon-holder">
+                                            <img src="img/icons/phone.png" width="10" alt="">
+                                        </span>
+                                        <div class="hidden-content-phone">Give us a call
+                                            <a href="tel:877-522-2250" class="telephone-anchor"><span class="phone-number telephone-text">877-522-2250</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="call-action-block-holder" id="message">
+                                <div class="call-action-block">
+                                    <div class="click-action phone">
+                                        <span class="icon-holder">
+                                            <img src="img/icons/enveolope.png" width="10" alt="">
+                                        </span>
+                                        <form id="email-us-program">
+                                            <div class="hidden-content-message">
+                                                Email us your questions
+                                                <select name="email-program" id="email-program">
+                                                    <option value="">Choose a Program</option>
+                                                    <option value="BS - Accounting">BS - Accounting</option>
+                                                    <option value="BS - Applied Social Sciences">BS - Applied Social Sciences</option>
+                                                    <option value="BS - Business Management">BS - Business Management</option>
+                                                    <option value="BS - Communication">BS - Communication</option>
+                                                    <option value="BS - Criminal Justice and Law Enforcement Administration">BS - Criminal Justice and Law Enforcement Administration</option>
+                                                    <option value="BS - Healthcare Administration and Management">BS - Healthcare Administration and Management</option>
+                                                    <option value="BS - Human Resource Management">BS - Human Resource Management</option>
+                                                    <option value="BS - Human Services">BS - Human Services</option>
+                                                    <option value="BS - Information Technology">BS - Information Technology</option>
+                                                    <option value="BS - Management Information Systems and Business Analytics">BS - Management Information Systems and Business Analytics</option>
+                                                    <option value="BS - Marketing">BS - Marketing</option>
+                                                    <option value="BS - Organizational Leadership">BS - Organizational Leadership</option>
+                                                    <option value="BS - Project Management">BS - Project Management</option>
+                                                    <option value="BS - Public Management">BS - Public Management</option>
+                                                    <option value="Master - Criminal Justice and Law Enforcement Administration">Master - Criminal Justice and Law Enforcement Administration</option>
+                                                    <option value="Master - Finance">Master - Finance</option>
+                                                    <option value="Master - Professional Accounting">Master - Professional Accounting</option>
+                                                    <option value="Master - Healthcare Administration and Management">Master - Healthcare Administration and Management</option>
+                                                    <option value="Master - Human Resource Management">Master - Human Resource Management</option>
+                                                    <option value="Master - Information Technology Management">Master - Information Technology Management</option>
+                                                    <option value="Master - International Management">Master - International Management</option>
+                                                    <option value="Master - Project Management">Master - Project Management</option>
+                                                    <option value="MS - Management">MS - Management</option>
+                                                    <option value="MS - Organizational Leadership">MS - Organizational Leadership</option>
+                                                    <option value="MS - Teaching and Learning">MS - Teaching and Learning</option>
+                                                    <option value="NDS - Non-Degree Seeking">NDS - Non-Degree Seeking</option>
+                                                    <option value="NDS - SuccessReady">NDS - SuccessReady</option>
+                                                    <option value="Undergraduate Certificate of Completion">Undergraduate Certificate of Completion</option>
+                                                    <option value="CTU - Graduate Certificate Programs">CTU - Graduate Certificate Programs</option>
+                                                    <option value="EXT - Extended Studies">EXT - Extended Studies</option>
+                                                </select>
+                                            </div>
+                                            <div id="email-program-error"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="call-action-block-holder" id="request">
+                                <div class="call-action-block">
+                                    <div class="click-action phone">
+                                        <span class="icon-holder">
+                                            <img src="img/icons/icon.png" width="10" alt="">
+                                        </span>
+                                        <div class="hidden-content-request">
+                                            <form id="request-content-zip">
+                                                <span class="title">Request Information</span>
+                                                <input type="text" placeholder="Zip Code" class="input-zip" id="rfi-zip" name="rfi-zip" required>
+                                                <a href="#" class="next-button">NEXT</a>
+                                                <div id="rfi-zip-error"></div>
+                                            </form>
+                                        </div><div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- request form : begin -->
+                        <div id="request-content" class="clearfix request-form-holder request-content">
+                            <form novalidate>
+                                <a href="#" class="request-close-button">CLOSE</a>
+                                <p>Fill out the form below, press submit, and an enrollment counselor will be in touch soon.</p>
+                                <div class="row">
+                                    <div class="large-6 medium-6 columns">
+                                        <input type="text" placeholder="First Name" id="rfi-fname" name="rfi-fname" required>
+                                    </div>
+                                    <div class="large-6 medium-6 columns">
+                                        <input type="text" placeholder="Last Name" id="rfi-lname" name="rfi-lname" required>
+                                    </div>
+                                    <div class="large-12 columns">
+                                        <select name="rfi-program" id="rfi-program" name="rfi-program" required>
+                                            <option value="">Choose a Program</option>
+                                            <option value="BS - Accounting">BS - Accounting</option>
+                                            <option value="BS - Applied Social Sciences">BS - Applied Social Sciences</option>
+                                            <option value="BS - Business Management">BS - Business Management</option>
+                                            <option value="BS - Communication">BS - Communication</option>
+                                            <option value="BS - Criminal Justice and Law Enforcement Administration">BS - Criminal Justice and Law Enforcement Administration</option>
+                                            <option value="BS - Healthcare Administration and Management">BS - Healthcare Administration and Management</option>
+                                            <option value="BS - Human Resource Management">BS - Human Resource Management</option>
+                                            <option value="BS - Human Services">BS - Human Services</option>
+                                            <option value="BS - Information Technology">BS - Information Technology</option>
+                                            <option value="BS - Management Information Systems and Business Analytics">BS - Management Information Systems and Business Analytics</option>
+                                            <option value="BS - Marketing">BS - Marketing</option>
+                                            <option value="BS - Organizational Leadership">BS - Organizational Leadership</option>
+                                            <option value="BS - Project Management">BS - Project Management</option>
+                                            <option value="BS - Public Management">BS - Public Management</option>
+                                            <option value="Master - Criminal Justice and Law Enforcement Administration">Master - Criminal Justice and Law Enforcement Administration</option>
+                                            <option value="Master - Finance">Master - Finance</option>
+                                            <option value="Master - Professional Accounting">Master - Professional Accounting</option>
+                                            <option value="Master - Healthcare Administration and Management">Master - Healthcare Administration and Management</option>
+                                            <option value="Master - Human Resource Management">Master - Human Resource Management</option>
+                                            <option value="Master - Information Technology Management">Master - Information Technology Management</option>
+                                            <option value="Master - International Management">Master - International Management</option>
+                                            <option value="Master - Project Management">Master - Project Management</option>
+                                            <option value="MS - Management">MS - Management</option>
+                                            <option value="MS - Organizational Leadership">MS - Organizational Leadership</option>
+                                            <option value="MS - Teaching and Learning">MS - Teaching and Learning</option>
+                                            <option value="NDS - Non-Degree Seeking">NDS - Non-Degree Seeking</option>
+                                            <option value="NDS - SuccessReady">NDS - SuccessReady</option>
+                                            <option value="Undergraduate Certificate of Completion">Undergraduate Certificate of Completion</option>
+                                            <option value="CTU - Graduate Certificate Programs">CTU - Graduate Certificate Programs</option>
+                                            <option value="EXT - Extended Studies">EXT - Extended Studies</option>
+                                        </select>
+                                    </div>
+                                    <div class="large-6 medium-6 columns">
+                                        <input type="email" placeholder="Email Address" id="rfi-email" name="rfi-email" required>
+                                    </div>
+                                    <div class="large-6 medium-6 columns">
+                                        <input type="text" placeholder="Best Phone Number" id="rfiPhone" name="rfiPhone">
+                                    </div>
+                                    <div class="large-12 columns">
+                                        <input type="submit" value="SEND" class="form-submit">
+                                    </div>
+                                    <div class="large-12 columns">
+                                        <p class="disclaimer">By providing my information and clicking the “Send” button I consent to be contacted via telephone (including a cell phone, if provided), email, text message and/or prerecorded message by CSU-Global and its affiliates using automated technology.</p>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="form-thanks" style="display:none;">
+                                <a href="#" class="email-close-button request-close-button">CLOSE</a>
+                                <p><span>Congratulations on taking the first step toward a brighter future.</span> An enrollment counselor will be in touch with you shortly. If you have any questions, please feel free to give us a call at <a href="tel:877-522-2250" class="telephone-anchor"><span class="telephone-text">877-522-2250</span></a>.</p>
+                                <p>In the meantime, check your inbox for an important welcome message.</p>
+                            </div>
+                        </div>
+                        <!-- request form : end -->
+                        <!-- email us : begin -->
+                        <div id="email-us" class="clearfix email-us-holder">
+                            <form novalidate>
+                                <div class="row-line">
+                                    <span class="sm-block">
+                                        <input type="text" placeholder="First Name" id="email-fname" name="email-fname" required>
+                                    </span>
+                                    <span class="sm-block no-border">
+                                        <input type="text" placeholder="Last Name" id="email-lname" name="email-lname" required>
+                                    </span>
+                                    <span class="sm-block btn"><a href="#" class="email-close-button">CLOSE</a>
+                                    </span>
+                                </div>
+                                <div class="row-line">
+                                    <input type="email" class="email-address-field" placeholder="Email Address" id="email-email" name="email-email" required>
+                                </div>
+                                <div class="row-line">
+                                    <span class="sm-block">
+                                        <input type="text" placeholder="Best Phone Number" id="emailPhone" name="emailPhone">
+                                    </span>
+                                </div>
+                                <div class="row-line">
+                                    <select name="email-subject" id="email-subject" required>
+                                        <option value="General Inquiry">General Inquiry</option>
+                                        <option value="Question about a Program">Question about a Program</option>
+                                        <option value="Financial Aid">Financial Aid</option>
+                                        <option value="Academic Eligibility">Academic Eligibility</option>
+                                        <option value="Scholarships">Scholarships</option>
+                                    </select>
+                                </div>
+                                <div class="row-line">
+                                    <label>Message</label>
+                                </div>
+                                <div class="row-line">
+                                    <textarea name="email-message" id="email-message" cols="30" rows="3"></textarea>
+                                </div>
+                                <div class="row-line">
+                                    <span class="sm-block btn">
+                                        <input type="submit" value="SEND" class="email-form-submit">
+                                    </span>
+                                </div>
+                                <div class="row-line">
+                                    <span class="sm-block no-border agree">
+                                        <p class="disclaimer">By providing my information and clicking the “Send” button I consent to be contacted via telephone (including a cell phone, if provided), email, text message and/or prerecorded message by CSU-Global and its affiliates using automated technology.</p>
+                                    </span>
+                                </div>
+                            </form>
+                            <div class="form-thanks" style="display:none;">
+                                <a href="#" class="email-close-button request-close-button">CLOSE</a>
+                                <p><span>Congratulations on taking the first step toward a brighter future.</span> An enrollment counselor will be in touch with you shortly. If you have any questions, please feel free to give us a call at <a href="tel:877-522-2250" class="telephone-anchor"><span class="telephone-text">877-522-2250</span></a>.</p>
+                                <p>In the meantime, check your inbox for an important welcome message.</p>
+                            </div>
+                        </div>
+                        <!-- email us : end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- screen only featured block: end -->
+
+        <!-- intro mobile only : begin -->
+        <section class="block intro colums clearfix show-for-small">
+            <article class="special-width">
+                <div class="row">
+                    <div class="large-12 columns show-for-small tuition-guarantee">
+                        <div>
+                            <i class="fa fa-comment"></i>Ask About Our <span>Tuition Guarantee</span>
+                            <p>Once you enroll in your bachelor's or master's degree program with CSU-Global Campus, your affordable tuition rate is locked in for as long as you remain a student in good academic standing. <!-- (<a href="#" title="Learn More about Tuition Guarantee">Learn More</a>) -->
+                        </div>
+                    </div>
+                    <!-- mobile form: end -->
+                    <div class="show-for-small large-12 columns">
+                        <div class="" id="mobile-rfi">
+                            <form novalidate>
+                                <h5 class="round">REQUEST INFORMATION</h5>
+                                <div class="rfi-ins">
+                                    <div class="send-row clearfix">
+                                        <input type="text" placeholder="First Name" id="rfi-mobile-fname" name="rfi-mobile-fname" required>
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <input type="text" placeholder="Last Name" id="rfi-mobile-lname" name="rfi-mobile-lname" required>
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <input type="email" placeholder="Email Address" id="rfi-mobile-email" name="rfi-mobile-email" required>
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <input type="text" placeholder="Best Phone" id="rfiMobilePhone" name="rfiMobilePhone">
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <select name="rfi-mobile-program" id="rfi-mobile-program" required>
+                                            <option value="">Program of Interest</option>
+                                            <option value="BS - Accounting">BS - Accounting</option>
+                                            <option value="BS - Applied Social Sciences">BS - Applied Social Sciences</option>
+                                            <option value="BS - Business Management">BS - Business Management</option>
+                                            <option value="BS - Communication">BS - Communication</option>
+                                            <option value="BS - Criminal Justice and Law Enforcement Administration">BS - Criminal Justice and Law Enforcement Administration</option>
+                                            <option value="BS - Healthcare Administration and Management">BS - Healthcare Administration and Management</option>
+                                            <option value="BS - Human Resource Management">BS - Human Resource Management</option>
+                                            <option value="BS - Human Services">BS - Human Services</option>
+                                            <option value="BS - Information Technology">BS - Information Technology</option>
+                                            <option value="BS - Management Information Systems and Business Analytics">BS - Management Information Systems and Business Analytics</option>
+                                            <option value="BS - Marketing">BS - Marketing</option>
+                                            <option value="BS - Organizational Leadership">BS - Organizational Leadership</option>
+                                            <option value="BS - Project Management">BS - Project Management</option>
+                                            <option value="BS - Public Management">BS - Public Management</option>
+                                            <option value="Master - Criminal Justice and Law Enforcement Administration">Master - Criminal Justice and Law Enforcement Administration</option>
+                                            <option value="Master - Finance">Master - Finance</option>
+                                            <option value="Master - Professional Accounting">Master - Professional Accounting</option>
+                                            <option value="Master - Healthcare Administration and Management">Master - Healthcare Administration and Management</option>
+                                            <option value="Master - Human Resource Management">Master - Human Resource Management</option>
+                                            <option value="Master - Information Technology Management">Master - Information Technology Management</option>
+                                            <option value="Master - International Management">Master - International Management</option>
+                                            <option value="Master - Project Management">Master - Project Management</option>
+                                            <option value="MS - Management">MS - Management</option>
+                                            <option value="MS - Organizational Leadership">MS - Organizational Leadership</option>
+                                            <option value="MS - Teaching and Learning">MS - Teaching and Learning</option>
+                                            <option value="NDS - Non-Degree Seeking">NDS - Non-Degree Seeking</option>
+                                            <option value="NDS - SuccessReady">NDS - SuccessReady</option>
+                                            <option value="Undergraduate Certificate of Completion">Undergraduate Certificate of Completion</option>
+                                            <option value="CTU - Graduate Certificate Programs">CTU - Graduate Certificate Programs</option>
+                                            <option value="EXT - Extended Studies">EXT - Extended Studies</option>
+                                        </select>
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <input type="submit" value="Yes, I want to learn more!" class="">
+                                    </div>
+                                    <div class="clearfix">
+                                        <p class="disclaimer">By providing my information and clicking the “Yes, I want to learn more” button I consent to be contacted via telephone (including a cell phone, if provided), email, text message and/or prerecorded message by CSU-Global and its affiliates using automated technology.</p>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="form-thanks" style="display:none;">
+                                <a name="mobile-rfi-thanks"></a>
+                                <br /><br /><p><span>Congratulations on taking the first step toward a brighter future.</span> An enrollment counselor will be in touch with you shortly. If you have any questions, please feel free to give us a call at <a href="tel:877-522-2250" class="telephone-anchor"><span class="telephone-text">877-522-2250</span></a>.</p>
+                                <p>In the meantime, check your inbox for an important welcome message.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- intro mobile only : end -->
+
+        <!-- 3 blocks: begin -->
+        <section class="benefits-block clearfix">
+            <div class="row">
+                <div class="large-12 columns">
+                    <div class="panel clearfix">
+                        <div class="row">
+                            <div class="large-4 medium-4 columns">
+                                <img src="img/icons/fa-graduation.png" alt="CSU-Global Campus guarantees tuition rates">
+                                <div class="short-desc">
+                                    <h4>Tuition Guarantee</h4>
+                                    <p>No student fees, and you'll enjoy fixed, low tuition rates as long as you remain enrolled and in good standing.</p>
+                                </div>
+                            </div>
+                            <div class="large-4 medium-4 columns">
+                                <img src="img/logos/military-friendly.png" alt="Military Most-Friendly Colleges">
+                                <div class="short-desc">
+                                    <h4>Most Military Friendly</h4>
+                                    <p>CSU-Global is at the top of the list for Military Most-Friendly Colleges.</p>
+                                </div>
+                            </div>
+                            <div class="large-4 medium-4 columns">
+                                <img src="img/logos/hlc-logo.gif" alt="Higher Learning Commission Accredited">
+                                <div class="short-desc">
+                                    <h4>Independently Accredited</h4>
+                                    <p>Awarded to CSU-Global Campus by the Higher Learning Commission in June 2011.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 3 blocks: end -->
+        <!-- screen only: begin -->
+        <section class="block intro colums clearfix">
+            <article class="special-width">
+                <div class="row">
+                    <div class="large-6 medium-6 columns">
+                        <h1>CSU-Global, a Leader in Online Education</h1>
+                        <h2>8-week courses, starting every month, with<br />degrees designed for workplace success</h2>
+                    </div>
+                    <div class="large-6 medium-6 columns hide-for-small">
+                        <img src="img/content/CSU.jpg" alt="">
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- screen only: end -->
+        <!-- why choose csu: begin -->
+        <section class="block accordion-block" id="why-us">
+            <div class="clearfix">
+                <div class="row">
+                    <div class="large-6 medium-6 columns">
+                        <p class="intro-accordion-text">We know your career can’t wait for you to earn your degree, but neither can the rest of your life. That’s why CSU-Global offers 100% online courses with year-round starts to make sure you don’t miss a board meeting, a soccer game, or a family vacation. Learn the way you want to, with the flexibility and convenience you need. And do it all through a low cost, high quality education.</p>
+                        <h1 class="show-for-small">WHY CHOOSE CSU-GLOBAL
+                        </h1>
+                        <h1 class="hide-for-small">WHY CHOOSE
+                            <br>CSU-GLOBAL
+                        </h1>
+                    </div>
+                    <div class="large-6 medium-6 columns">
+                        <p class="intro-accordion-text">At CSU-Global you’ll gain access to career resources and student support services that help you take your profession to the next level. And with our Tuition Guarantee you’ll never see an increase, so you’re better off now and into the future. Whether you’re looking for a promotion, a higher salary, or even an entirely new career path, talk to an advisor today and get the guidance you need to make it happen.</p>
+
+                        <dl class="accordion" data-accordion>
+                            <dd class="accordion-navigation active">
+                                <a href="#panel1">100% Online Undergraduate and Graduate Programs</a>
+                                <div id="panel1" class="content active">
+                                    CSU-Global coursework was designed with the understanding that you can’t put your life on hold to go back to college. Classes start every four weeks with accelerated 8-week terms, so you can learn with the flexibility and convenience you need.
+                                </div>
+                            </dd>
+                            <dd class="accordion-navigation">
+                                <a href="#panel2">Affordable, High-Quality Education</a>
+                                <div id="panel2" class="content">
+                                    We understand the financial commitments of working professionals in today’s economy, which is why we make your degree as affordable as possible. Our tuition rates are lower than most and with our Tuition Guarantee you’ll never see a rate increase.
+                                </div>
+                            </dd>
+                            <dd class="accordion-navigation">
+                                <a href="#panel3">Designed for Adult Learners</a>
+                                <div id="panel3" class="content">
+                                    CSU-Global programs are designed for working adults, which means you’ll get the professionalism you know and deserve. Certified instructors all have specialized training in distance learning and online adult education. And classes emphasize theory and application, for a real-world focus to help you hit the ground running after graduation.
+                                </div>
+                            </dd>
+                            <dd class="accordion-navigation">
+                                <a href="#panel4">Flexible, 24/7 Learning</a>
+                                <div id="panel4" class="content">
+                                    With a busy work and home schedule, you need flexible learning that never shuts down. CSU-Global coursework is available 24 hours a day, 7 days a week. Learn when and where it’s convenient for you, without the commute and rigid class schedule.
+                                </div>
+                            </dd>
+                            <dd class="accordion-navigation">
+                                <a href="#panel5">Non-Profit Online University</a>
+                                <div id="panel5" class="content">
+                                    CSU-Global is a public, state institution with the primary responsibility of providing you a high quality education. As part of the distinguished Colorado State University System, CSU-Global ensures that your education and support are priority one.
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why choose csu: end -->
+        <!-- slider screen + form mobile: begin -->
+        <section class="block static-block clerfix">
+            <div class="row">
+                <div class="hide-for-small large-6 medium-6 columns ">
+                    <div class="slider-holder">
+                        <h4>FROM TWITTER</h4>
+                        <div id="slider" class="owl-carousel owl-theme">
+                            <div id="twitter-feed">
+                                <div class="item">
+                                    <p>Did you know your professional experience may count as credit toward your bachelor’s degree? Contact us to learn how. #goCSUglobal</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="hide-for-small large-6 medium-6 columns">
+                    <p class="basic-text">Get
+                        <br>Started
+                        <br>Today</p>
+                    <address class="call"><a href="tel:877-522-2250" class="telephone-anchor"><span class="telephone-text">877-522-2250</span></a></address>
+                </div>
+                    <div class="show-for-small">
+                        <div class="send-message" id="mobile-contact">
+                            <form novalidate>
+                                <h5 class="round">SEND US A MESSAGE</h5>
+                                <div class="send-message-ins">
+                                    <div class="send-row clearfix">
+                                        <input type="text" placeholder="First Name" id="mobile-fname" name="mobile-fname" required>
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <input type="text" placeholder="Last Name" id="mobile-lname" name="mobile-lname" required>
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <input type="email" placeholder="Email Address" id="mobile-email" name="mobile-email" required>
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <input type="text" placeholder="Best Phone" id="mobilePhone" name="mobilePhone">
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <select name="mobile-program" id="mobile-program" name="mobile-program" required>
+                                            <option value="">Program of Interest</option>
+                                            <option value="BS - Accounting">BS - Accounting</option>
+                                            <option value="BS - Applied Social Sciences">BS - Applied Social Sciences</option>
+                                            <option value="BS - Business Management">BS - Business Management</option>
+                                            <option value="BS - Communication">BS - Communication</option>
+                                            <option value="BS - Criminal Justice and Law Enforcement Administration">BS - Criminal Justice and Law Enforcement Administration</option>
+                                            <option value="BS - Healthcare Administration and Management">BS - Healthcare Administration and Management</option>
+                                            <option value="BS - Human Resource Management">BS - Human Resource Management</option>
+                                            <option value="BS - Human Services">BS - Human Services</option>
+                                            <option value="BS - Information Technology">BS - Information Technology</option>
+                                            <option value="BS - Management Information Systems and Business Analytics">BS - Management Information Systems and Business Analytics</option>
+                                            <option value="BS - Marketing">BS - Marketing</option>
+                                            <option value="BS - Organizational Leadership">BS - Organizational Leadership</option>
+                                            <option value="BS - Project Management">BS - Project Management</option>
+                                            <option value="BS - Public Management">BS - Public Management</option>
+                                            <option value="Master - Criminal Justice and Law Enforcement Administration">Master - Criminal Justice and Law Enforcement Administration</option>
+                                            <option value="Master - Finance">Master - Finance</option>
+                                            <option value="Master - Professional Accounting">Master - Professional Accounting</option>
+                                            <option value="Master - Healthcare Administration and Management">Master - Healthcare Administration and Management</option>
+                                            <option value="Master - Human Resource Management">Master - Human Resource Management</option>
+                                            <option value="Master - Information Technology Management">Master - Information Technology Management</option>
+                                            <option value="Master - International Management">Master - International Management</option>
+                                            <option value="Master - Project Management">Master - Project Management</option>
+                                            <option value="MS - Management">MS - Management</option>
+                                            <option value="MS - Organizational Leadership">MS - Organizational Leadership</option>
+                                            <option value="MS - Teaching and Learning">MS - Teaching and Learning</option>
+                                            <option value="NDS - Non-Degree Seeking">NDS - Non-Degree Seeking</option>
+                                            <option value="NDS - SuccessReady">NDS - SuccessReady</option>
+                                            <option value="Undergraduate Certificate of Completion">Undergraduate Certificate of Completion</option>
+                                            <option value="CTU - Graduate Certificate Programs">CTU - Graduate Certificate Programs</option>
+                                            <option value="EXT - Extended Studies">EXT - Extended Studies</option>
+                                        </select>
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <select name="mobile-subject" id="mobile-subject" name="mobile-subject">
+                                            <option value="General Inquiry">General Inquiry</option>
+                                            <option value="Question about a Program">Question about a Program</option>
+                                            <option value="Financial Aid">Financial Aid</option>
+                                            <option value="Academic Eligibility">Academic Eligibility</option>
+                                            <option value="Scholarships">Scholarships</option>
+                                        </select>
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <textarea rows="5" cols="20" placeholder="Message" id="mobile-message" name="mobile-message"></textarea>
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <input type="submit" value="SEND" class="">
+                                    </div>
+                                    <div class="send-row clearfix">
+                                        <p class="disclaimer">By providing my information and clicking the “Send” button I consent to be contacted via telephone (including a cell phone, if provided), email, text message and/or prerecorded message by CSU-Global and its affiliates using automated technology.</p>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="form-thanks" style="display:none;">
+                                <p><span>Congratulations on taking the first step toward a brighter future.</span> An enrollment counselor will be in touch with you shortly. If you have any questions, please feel free to give us a call at <a href="tel:877-522-2250" class="telephone-anchor"><span class="telephone-text">877-522-2250</span></a>.</p>
+                                <p>In the meantime, check your inbox for an important welcome message.</p>
+                            </div>
+                        </div>
+                    </div>
+</div>
+
+        </section>
+        <!-- slider screen: begin -->
+        <!-- screen footer: begin -->
+        <footer class="main-footer large-12 columns" id="footer">
+            <div class="row">
+                <h5>EXPLORE DEGREE PROGRAMS</h5>
+                <div class="large-6 medium-6 columns">
+                    <div class="footer-custom-block undergrad-links" id="undergrad">
+                        <p><a href="bachelors.html">UNDERGRADUATE</a></p>
+                        <div class="row">
+                            <div class="large-6 medium-6 columns">
+                                <ul>
+                                    <li><a href="bachelors.html#accounting">Accounting</a></li>
+                                    <li><a href="bachelors.html#applied-social-sciences">Applied Social Sciences</a></li>
+                                    <li><a href="bachelors.html#business-management">Business Management</a></li>
+                                    <li><a href="bachelors.html#communication">Communication</a></li>
+                                    <li><a href="bachelors.html#criminal-justice-and-law-enforcement-management">Criminal Justice and Law Enforcement Administration</a></li>
+                                    <li><a href="bachelors.html#healthcare-administration-and-management">Healthcare Administration and Management</a></li>
+                                    <li><a href="bachelors.html#human-resource-management">Human Resource Management</a></li>
+                                    <li><a href="bachelors.html#human-services">Human Services</a></li>
+                                </ul>
+                            </div>
+                            <div class="large-6 medium-6 columns">
+                                <ul>
+                                    <li><a href="bachelors.html#information-technology">Information Technology</a></li>
+                                    <li><a href="bachelors.html#management-information-systems-and-business-analytics">Management Information Systems and Business Analytics</a></li>
+                                    <li><a href="bachelors.html#marketing">Marketing</a></li>
+                                    <li><a href="bachelors.html#organizational-leadership">Organizational Leadership</a></li>
+                                    <li><a href="bachelors.html#project-management">Project Management</a></li>
+                                    <li><a href="bachelors.html#public-management">Public Management</a></li>
+                                    <li>Specializations</li>
+                                    <li>Undergraduate Certificates of Completion</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="large-6 medium-6 columns">
+                    <div class="footer-custom-block graduate-links" id="graduate">
+                        <p><a href="bachelors.html">GRADUATE</a></p>
+                        <div class="row">
+                            <div class="large-6 medium-6 columns">
+                                <ul>
+                                    <li><a href="masters.html#management">Management</a></li>
+                                    <li><a href="masters.html#organizational-leadership">Organizational Leadership</a></li>
+                                    <li><a href="masters.html#teaching-and-learning">Teaching &amp; Learning</a></li>
+                                    <li><a href="masters.html#criminal-justice-and-law-enforcement-administration">Criminal Justice and Law Enforcement Administration</a></li>
+                                    <li><a href="masters.html#finance">Finance</a></li>
+                                    <li><a href="masters.html#healthcare-administration-and-management">Healthcare Administration and Management</a></li>
+                                </ul>
+                            </div>
+                            <div class="large-6 medium-6 columns">
+                                <ul>
+                                    <li><a href="masters.html#human-resource-management">Human Resource Management</a></li>
+                                    <li><a href="masters.html#teaching-and-learning-education-leadership-concentration">Education Leadership Concentration</a></li>
+                                    <li><a href="masters.html#information-technology-management">Information Technology Management</a></li>
+                                    <li><a href="masters.html#international-management">International Management</a></li>
+                                    <li><a href="masters.html#project-management">Project Management</a></li>
+                                    <li>Specializations</li>
+                                    <li>Graduate Certificates of Completion</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="columns">&copy;2015 CSU-Global Campus - <a href="http://csuglobal.edu/privacy-policy/" target="_blank" title="CSU Global Privacy Policy">Privacy Policy</a> - <a href="#" onclick="showRFI()">Request Information</a></div>
+
+            </div>
+        </footer>
+        <!-- screen footer: end -->
+        <!-- mobile footer: begin -->
+        <footer class="mobile-footer clearfix show-for-small">
+            <br />
+            <!-- mobile form: begin -->
+
+            <a href="#" onclick="showMobileRFI()">
+                <div class="show-for-small">
+                    <div class="give-us-a-call-mobile bottom round">
+                        <span>Request Info</span>
+                    </div>
+                </div>
+            </a>
+            <!-- mobile form: end -->
+            <br />
+            <span class="sm-block-f">
+                <img src="img/logos/CSU.png" alt="">
+            </span>
+            <span class="sm-block-f">
+                &copy;2015
+                <br>CSU-Global Campus
+            </span>
+            <span class="sm-block-f">
+                <img src="img/logos/higher-learning-commission.png" alt="">
+            </span>
+        </footer>
+        <!-- mobile footer: end -->
+    </div>
+
+    <script src="js/services.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
