@@ -4,7 +4,7 @@
 			"id": "accounting",
 			"name": "Accounting",
 			"icon": "fa-calculator",
-			"image": "/img/program-images/accounting.jpg",
+			"image": "img/program-images/accounting.jpg",
 			"degree": "BS - Accounting",
 			"description": "<p>Learn to lead an organization from a financial perspective and gain the skills you need to succeed in today's accounting world.</p><p>Your talent with numbers can lead to a promising career when you complete your online bachelor's in accounting from CSU-Global. By learning best practices and theories used in today's private, not-for-profit, and government organizations, you will understand what it takes to manage complex personal and business finances.</p><p>During your program, you will study legal compliance and ethics, finance, marketing, leadership, economics, and decision making. You will also apply problem-solving skills to real-life situations, and practice analyzing data to create the business reports required by executive leadership when making financial decisions.</p>"
 		},
@@ -12,7 +12,7 @@
 			"id": "applied-social-sciences",
 			"name": "Applied Social Sciences",
 			"icon": "fa-group",
-			"image": "/img/program-images/applied-social-sciences.jpg",
+			"image": "img/program-images/applied-social-sciences.jpg",
 			"degree": "BS - Applied Social Sciences",
 			"description": "<p>Learn the leadership, communication, critical thinking, research, and interpersonal skills that are sought after in any profession.</p><p>Gain a broad understanding of human behavior and increase your knowledge in a wide range of disciplines through your online bachelor’s degree in applied social sciences. You’ll learn how to build dynamic teams and make organizations function better though better decision making, critical thinking, and analytic research skills.</p><p>Your career opportunities are wide open with bachelor of social science degree. It is also excellent preparation for graduate studies in sociology, law, public administration, social work, psychology, and education.</p>"
 		},
@@ -20,7 +20,7 @@
 			"id": "business-management",
 			"name": "Business Management",
 			"icon": "fa-briefcase",
-			"image": "/img/program-images/business-management.jpg",
+			"image": "img/program-images/business-management.jpg",
 			"degree": "BS - Business Management",
 			"description": "<p>Learn the leadership skills and practical business knowledge you need to move to a higher level in any organization.</p><p>A bachelor's degree in business management is one of the most versatile and useful degrees you can earn. The US Bureau of Labor Statistics estimates that jobs in business management will continue to grow by 7% through 2020. Skilled, highly effective managers are needed in every field.</p><p>You can tailor your online bachelor's degree in business management to your specific field of interest by adding a specialization such as accounting, marketing, or project management. This online bachelor's degree in business management is ideal for you if you're working your way up in your company or industry, and you need to complete your degree in order to advance. This program is also excellent preparation for further study to earn a master of business administration (MBA) degree.</p>"
 		},
@@ -28,7 +28,7 @@
 			"id": "communication",
 			"name": "Communication",
 			"icon": "fa-microphone",
-			"image": "/img/program-images/communication.jpg",
+			"image": "img/program-images/communication.jpg",
 			"degree": "BS - Communication",
 			"description": "<p>Get the effective communication skills you need in today’s global society. You'll learn a variety of messaging techniques and communication best practices.</p><p>You’re a people person, you have a way with words, and you can get a clear message across, so why not use your talent to master communication, an essential skill vital to any organization’s overall success? Learn oral and written communication, mass communication, new media, public relations, technical writing, and the skills you need to be an effective communicator for an organization.</p><p>As you earn your online bachelor's degree in communications, you will gain a knowledge base of critical thinking and strategic communication skills that apply to everyday business life. You'll also explore interpersonal, intercultural, and organizational communication; evaluate diversity, as well as the ethical and legal affects on communication; and learn to create communication pieces to send out to audiences.</p>"
 		},
@@ -36,7 +36,7 @@
 			"id": "criminal-justice-and-law-enforcement-management",
 			"name": "Criminal Justice and Law Enforcement Management",
 			"icon": "fa-legal",
-			"image": "/img/program-images/criminal-justice.jpg",
+			"image": "img/program-images/criminal-justice.jpg",
 			"degree": "BS - Criminal Justice and Law Enforcement Administration",
 			"description": "<p>Come to know the inner workings of law enforcement, corrections, and the law, and leave the program with the knowledge and skills you need to protect people and their property.</p><p>If you have a passion for helping people and a talent for knowing the law — and you can picture yourself in a position of authority — this might be the program for you. You’ll learn the ins and outs of law enforcement, corrections, and other criminal justice areas, and leave prepared for a career with a law enforcement organization, or to advance into leadership or management roles within your current organization.</p><p>In this program, you will use existing research on the law to make informed decisions, learn what makes an effective criminal justice system, form an advanced understanding of the ethical issues and controversial policies facing criminal justice organizations and personnel, and get an overview of the theories and best practices of law enforcement.</p>"
 		},
@@ -44,7 +44,7 @@
 			"id": "healthcare-administration-and-management",
 			"name": "Healthcare Administration and Management",
 			"icon": "fa-stethoscope",
-			"image": "/img/program-images/healthcare-administration.jpg",
+			"image": "img/program-images/healthcare-administration.jpg",
 			"degree": "BS - Healthcare Administration and Management",
 			"description": "<p>Become a part of one of the largest industries in the United States and around the world in the ever-growing field of healthcare.</p><p>Learn to plan and direct in a fast-paced and ever-changing industry. Whether you’re managing s department or an entire clinic, you’ll need a strong foundation in business, marketing, human resources, communication, decision-making, and finance. Learn these fundamental skills and more through real-world application and the study of healthcare best practices.</p><p>Healthcare is an ever-changing and ever-growing industry. In this online healthcare management degree program, you will develop the skills you need to stay ahead of the curve with a knowledge base of quality healthcare systems, risk management, managed care, insurance, health care laws and regulations, ethics, and other information and practices that are important to managing in a demanding healthcare environment.</p>"
 		},
@@ -52,7 +52,7 @@
 			"id": "human-resource-management",
 			"name": "Human Resource Management",
 			"icon": "fa-comments-o",
-			"image": "/img/program-images/human-resource-management.jpg",
+			"image": "img/program-images/human-resource-management.jpg",
 			"degree": "BS - Human Resource Management",
 			"description": "<p>Gain the fundamental knowledge and leadership skills you need to succeed in the fast-growing field of human resource management.</p><p>Your talent in dealing with people is needed in every part of today’s business world. Add the practical skills you need to succeed by completing your online bachelor’s degree in human resource management.</p><p>You’ll learn the foundations of organizational structure and the role of HR professionals in building a culture, managing policy, resolving conflict, and maximizing employee performance. This online human resources bachelor’s degree is designed for anyone interested in a career in organizational development or HR, including Human Resource Managers, Training and Development Supervisors, Recruiters, and more.</p>"
 		},
@@ -60,7 +60,7 @@
 			"id": "human-services",
 			"name": "Human Services",
 			"icon": "fa-male",
-			"image": "/img/program-images/human-services.jpg",
+			"image": "img/program-images/human-services.jpg",
 			"degree": "BS - Human Services",
 			"description": "<p>Help make an impact on the lives of others with a degree in human services. If you’re compassionate and have a will to learn, listen, and help those in need, this is the program for you.</p><p>By earning your online human services bachelor's degree at CSU-Global, you will gain an understanding of various community and social services such as child care, mental illness services, support for people with disabilities, and elderly support, and the types of people who fulfill those jobs.</p><p>The human services courses in this program will prepare you to work in a wide variety of social fields, and equip you with the necessary skills and fundamentals to successfully help individuals, families, groups, and organizations. You’ll cover many topics, including human development, intervention methods, case management, and human services administration.</p>"
 		},
@@ -68,7 +68,7 @@
 			"id": "information-technology",
 			"name": "Information Technology",
 			"icon": "fa-laptop",
-			"image": "/img/program-images/information-technology.jpg",
+			"image": "img/program-images/information-technology.jpg",
 			"degree": "BS - Information Technology",
 			"description": "<p>Information technology allows for the seamless communication between people and businesses that we've come to rely on every day. Enter the challenging, ever-changing, and often lucrative field of IT.</p><p>Learn to speak the language of computers in the information technology bachelor's degree program from CSU-Global. You will become proficient in new and innovative technologies, and prepare yourself for professional certification exams that will enhance your value in the job market.</p><p>You will acquire technical skills in programming and technology troubleshooting, learn to recommend software and hardware systems for organizations, and learn to work independently and with others to meet the technology goals of an organization.</p>"
 		},
@@ -76,7 +76,7 @@
 			"id": "management-information-systems-and-business-analytics",
 			"name": "Management Information Systems and Business Analytics",
 			"icon": "fa-bar-chart",
-			"image": "/img/program-images/management-information-systems.jpg",
+			"image": "img/program-images/management-information-systems.jpg",
 			"degree": "BS - Management Information Systems and Business Analytics",
 			"description": "<p>If you believe in the power of data to support decisions, help propose solutions, and drive business objectives, this program will fine tune your data mining skills and turn you into an organizational leader backed by the power of information technology.</p><p>In this program, you will learn how information systems can be used to meet a variety of business needs, and to improve processes and results. You will also learn how to use data to improve decision making, management processes, strategy, and finance.</p><p>Management information systems careers are in high demand, and they require skills and understanding in business, and well as technology. You'll leave this program with the skills to conduct system analyses and manage complex projects, design business solutions to meet objectives, and break down and analyze complex data.</p>"
 		},
@@ -84,7 +84,7 @@
 			"id": "marketing",
 			"name": "Marketing",
 			"icon": "fa-thumbs-up",
-			"image": "/img/program-images/marketing.jpg",
+			"image": "img/program-images/marketing.jpg",
 			"degree": "BS - Marketing",
 			"description": "<p>Earning your bachelor's in marketing opens up a world of career possibilities. </p><p>Marketing professionals are needed in every industry, and you can leverage your degree into any of a wide range of jobs, depending on your personal passions and talents. Whether you’re interested in management, creative direction, strategic planning, public relations, or sales, your online degree in marketing can take you there.</p><p>In your online marketing classes, you’ll gain a broad understanding of the many aspects of the marketing profession, including consumer behavior, promotion, public relations, sales, market research, marketing strategy, and more. You’ll explore the many facets of marketing, and gain practical experience and skills you can apply in the real world.</p>"
 		},
@@ -92,7 +92,7 @@
 			"id": "organizational-leadership",
 			"name": "Organizational Leadership",
 			"icon": "fa-puzzle-piece",
-			"image": "/img/program-images/organizational-leadership.jpg",
+			"image": "img/program-images/organizational-leadership.jpg",
 			"degree": "BS - Organizational Leadership",
 			"description": "<p>Get ready to rise to the top with the skills you need to be an effective leader in the global business world.</p><p>Are you finishing your bachelor’s degree so you can advance in your organization? Or do you have dreams of leading a company of your own? Learn the practical skills you need to lead teams and companies with an online bachelor's in organizational management from CSU-Global.</p><p>In this online leadership program, you’ll study the many aspects of effective leadership, including communication, organizational structure and design, legal issues in business, workplace psychology, team dynamics, project management, conflict resolution, negotiation, and how to encourage innovation in your employees.</p>"
 		},
@@ -100,7 +100,7 @@
 			"id": "project-management",
 			"name": "Project Management",
 			"icon": "fa-dashboard",
-			"image": "/img/program-images/project-management.jpg",
+			"image": "img/program-images/project-management.jpg",
 			"degree": "BS - Project Management",
 			"description": "<p>Build on your talents for organizing, tracking, and negotiating with practical career skills that are always in demand. </p><p>Project management is one of the most versatile, practical, sought-after skills in the workplace today. When you know how to keep complex projects on track, on time, and under budget, in spite of limited resources and real-world problems, you’ll be a valuable member of a team in almost any industry. Earning your online bachelor’s degree in project management from CSU-Global will teach you those skills — and give you the tools to prove them.</p><p>In your online project management classes, you’ll learn the tools and techniques of effective project management for any field, including leadership skills, planning, organizational tools, scheduling, procurement, contracts, risk management, and Total Quality Management (TQM). In your capstone project, you’ll develop a project plan for the business of your choice, so you’ll be able to showcase your skills for your current or potential employers.</p>"
 		},
@@ -108,7 +108,7 @@
 			"id": "public-management",
 			"name": "Public Management",
 			"icon": "fa-building",
-			"image": "/img/program-images/public-management.jpg",
+			"image": "img/program-images/public-management.jpg",
 			"degree": "BS - Public Management",
 			"description": "<p>If you want to excel in government, nonprofit organizations, or another part of the public sector, you’ll need a broad range of skills that are very different from those used in private business.</p><p>Be of service. Build your community. Make the world a better place. Learn what you need to know with a bachelor’s degree in public management from CSU-Global.</p><p>As you complete your bachelor’s degree, you’ll learn the many facets of public-sector administration, including ethics, legal considerations, theories of leadership, human resource management, organizational design, financial management, policy development, and more. You’ll also develop the critical thinking and decision-making skills that will set you apart as a leader in the public sector.</p>"
 		}
@@ -118,7 +118,7 @@
 			"id": "management",
 			"name": "Management",
 			"icon": "fa-quote-right",
-			"image": "/img/program-images/business-management.jpg",
+			"image": "img/program-images/business-management.jpg",
 			"degree": "Master - Criminal Justice and Law Enforcement Administration",
 			"description": "<p>Whether you’re working with a start-up, small, or large business, in the public or the private sector, this program will give you the interdisciplinary management skills you need to succeed.</p><p>Learn the dynamics of an organization and how to analyze, communicate, and make effective decisions through this online master's in management. You'll study a broad range of business topics, including ethics, finance and economics, international commerce, strategic planning, research analysis, and how to foster a company culture that encourages innovation. In each course in this program, you'll complete a portfolio-quality project that will prove your ability to apply the theory you've learned to real-world business situations.</p><p>If you choose to combine your online master's in management program from CSU-Global with the Specialization in Human Resource Management or Human Resource Performance, you'll complete the curriculum recommended by the Society for Human Resource Management (SHRM) for HR students at the undergraduate and graduate levels.</p>"
 		},
@@ -126,7 +126,7 @@
 			"id": "organizational-leadership",
 			"name": "Organizational Leadership",
 			"icon": "fa-puzzle-piece",
-			"image": "/img/program-images/organizational-leadership.jpg",
+			"image": "img/program-images/organizational-leadership.jpg",
 			"degree": "MS - Organizational Leadership",
 			"description": "<p>Prepare yourself for upper-level management or to lead your own company with a solid understanding of the dynamics of organizations, teams, and today’s ever-changing business landscape.</p><p>If you’re pursuing your master’s degree so you can advance your career, why not choose a program that focuses on the exact skills you need to become a leader in your field? CSU-Global’s online master's degree in organizational leadership will prepare you for a broad range of upper-level management positions, including Human Resources Manager, Benefits Administrator, Executive Manager, Industrial and Operational Supervisor, and more.</p><p>You’ll develop expertise in organizational innovation, decision making, communication, organizational psychology, ethics, team leadership, and critically evaluating business research. You’ll also gain experience in applying these skills to real-world business situations.</p>"
 		},
@@ -134,7 +134,7 @@
 			"id": "teaching-and-learning",
 			"name": "Teaching & Learning",
 			"icon": "fa-graduation-cap",
-			"image": "/img/program-images/teaching.jpg",
+			"image": "img/program-images/teaching.jpg",
 			"degree": "MS - Teaching and Learning",
 			"description": "<p>You already have the passion and the talent for teaching. Now become an even more effective teacher with the latest theories, techniques, and technologies for education in the 21st century. </p><p>In this program, you’ll develop more effective strategies for teaching students with diverse language backgrounds, cultures, and learning styles. You’ll look into the latest research on the many ways people learn. You’ll learn to deal with the ethical, legal, and social issues around education today. You’ll learn best practices in curriculum design. You’ll discover how emerging technologies can be used to increase opportunities and improve learning. In short, you’ll become a well-rounded teaching professional, ready to grow with the evolving face of education in today’s world.</p><p>CSU-Global’s master’s in teaching program is designed for teachers of all types, including K-12 teachers, adult educators, school administrators, corporate trainers, special education instructors, and instructional designers.</p>"
 		},
@@ -142,7 +142,7 @@
 			"id": "teaching-and-learning-education-leadership-concentration",
 			"name": "Teaching & Learning - Education Leadership Concentration",
 			"icon": "fa-university",
-			"image": "/img/program-images/educational-leadership.jpg",
+			"image": "img/program-images/educational-leadership.jpg",
 			"degree": "MS - Teaching and Learning",
 			"description": "<p>Put your academic passions to good use as a principal or vice principal.</p><p>If your strengths lie in both education and leadership, then becoming a principal or assistant principal at the elementary, middle, or high school level may be the perfect career for you.  CSU-Global is proud to offer two different paths to get you there.</p><ul><li>As part of your online Master’s Degree in Teaching and Learning, you can participate in the Principal Licensure Concentration. If you choose to do so, this program will replace your requirement for a specialization.</li><li>For students who already have a master's degree, we also offer the Principal Licensure as a 24-credit-hour, stand-alone program.</li></ul><p>With either option, you will learn education theory and high-level leadership techniques as well as the tools to coordinate daily school activities, oversee curricula, and maintain a safe, productive learning environment.</p><p>It’s a challenging and rewarding occupation, and CSU-Global is here to help you prepare for a bright future as an effective leader in education.</p>"
 		},
@@ -150,7 +150,7 @@
 			"id": "criminal-justice-and-law-enforcement-administration",
 			"name": "Criminal Justice and Law Enforcement Administration",
 			"icon": "fa-legal",
-			"image": "/img/program-images/criminal-justice.jpg",
+			"image": "img/program-images/criminal-justice.jpg",
 			"degree": "Master - Criminal Justice and Law Enforcement Administration",
 			"description": "<p>Your leadership role in criminal justice or law enforcement awaits, and earning your master’s degree might just be what you need to stand out from the crowd.</p><p>It’s more than just the piece of paper you need, though. You need a better understanding of how criminal justice organizations function, and how to manage the people and issues faced in daily operation. You need to learn how to build programs and policy through community involvement and collaboration.</p><p>Building upon your strong foundation, this online criminal justice master’s degree program is designed to equip you with the knowledge and tools that you need to advance professionally. In this program, you will evaluate the role of an effective criminal justice manager, untangle the ethical issues facing criminal justice organizations and employees, examine issues of diversity, and find solutions to common law enforcement and criminal justice problems.</p>"
 		},
@@ -158,7 +158,7 @@
 			"id": "finance",
 			"name": "Finance",
 			"icon": "fa-money",
-			"image": "/img/program-images/finance.jpg",
+			"image": "img/program-images/finance.jpg",
 			"degree": "Master - Finance",
 			"description": "<p>Your leadership role in finance awaits. Earn your master’s degree in this high-demand and competitive field.</p><p>An advanced degree in finance may just be what your career needs to promote you to an advanced position with higher earning potential. The master’s in finance program at CSU-Global can be tailored to your specific career goals, allowing you to focus your time and attention on the topics you find most important to your career, but will also cover area that make up financial framework such as financial management, analysis, auditing, advising, accounting, and more.</p><p>Through this program, you will use the latest technology and emerging trends to create financial strategies, analyze financial risks and investments, and make effective decisions — all skills that you need to succeed in a financial institution. You will not only sharpen your financial skills and build upon your existing career foundation, but also learn the skills necessary to become a leader in a financial department or institution.</p>"
 		},
@@ -166,7 +166,7 @@
 			"id": "professional-accounting",
 			"name": "Professional Accounting",
 			"icon": "fa-area-chart",
-			"image": "/img/program-images/finance.jpg",
+			"image": "img/program-images/finance.jpg",
 			"degree": "Master - Professional Accounting",
 			"description": "<p>If leadership in personal or corporate finance is in your blood, we've got the degree program for you.</p><p>You'll do more than handle financial records and balance budgets with an Online Master of Professional Accounting Degree from CSU-Global; you'll help entire organizations run efficiently and sustainably. You'll stay on top of changes to laws and regulations. You'll reduce costs as you improve profits. And you'll be one of the most valuable members of any workplace as a result.</p><p>Our Master of Professional Accounting Online Degree Program is designed to prepare you to be a Certified Public Accountant (CPA) as well as an effective leader in public accounting, corporations, government agencies, and other career fields. Students should check with their board of accountancy about the specific requirements within their state.</p><p>As a extra bonus, you will get access to Wiley CPAexcel's Video Gold Medal Course at a significant discount to further prepare you for the CPA exam.</p>"
 		},
@@ -174,7 +174,7 @@
 			"id": "healthcare-administration-and-management",
 			"name": "Healthcare Administration and Management",
 			"icon": "fa-hospital-o",
-			"image": "/img/program-images/healthcare-administration.jpg",
+			"image": "img/program-images/healthcare-administration.jpg",
 			"degree": "Master - Healthcare Administration and Management",
 			"description": "<p>Your leadership role in healthcare administration and management awaits. Gain the knowledge and skills required to be a successful manager in the public and private healthcare sector.</p><p>Stand out in the busy, ever-changing and sometimes confusing field of healthcare administration and management. Build upon your existing experience and set yourself up to advance your career in this growing industry. This program is designed to prepare students like you for a wide variety of leadership roles within the healthcare industry.</p><p>The program incorporates leadership skills, knowledge, analytical abilities, global perspective, and management tools you need to effectively and efficiently lead and manage in both private and public healthcare organizations.</p>"
 		},
@@ -182,7 +182,7 @@
 			"id": "human-resource-management",
 			"name": "Human Resource Management",
 			"icon": "fa-comments-o",
-			"image": "/img/program-images/human-resource-management.jpg",
+			"image": "img/program-images/human-resource-management.jpg",
 			"degree": "Master - Human Resource Management",
 			"description": "<p>Your leadership role in human resource management awaits, and earning your master’s degree might just be what you need to stand out from the crowd.</p><p>Through the hiring and development of staff, you are consequently setting up your organization for success. Learn to become a leader in the field of human resources with your online Master of Human Resources Management degree at Colorado State University-Global Campus and gain advanced knowledge of the art of managing employees.</p><p>This program is designed to prepare you for a wide variety of leadership roles within the field of human resources. In the program, you will learn how to lead dynamic and diverse teams, understand legal and ethical decision making, manage performance to achieve results, and strategically plan and execute human resource initiatives.</p>"
 		},
@@ -190,7 +190,7 @@
 			"id": "information-technology-management",
 			"name": "Information Technology Management",
 			"icon": "fa-laptop",
-			"image": "/img/program-images/information-technology.jpg",
+			"image": "img/program-images/information-technology.jpg",
 			"degree": "Master - Information Technology Management",
 			"description": "<p>Your leadership role in information technology management awaits, and earning your master’s degree might just be what you need to stand out from the crowd.</p><p>Take your love of computers and information further by earning your online master’s degree in information technology management from CSU-Global. Through this program, you learn to lead in the fast-paced technology sector of today’s global organizations.</p><p>This program is designed to prepare you for a wide variety of leadership roles within technology-rich environments. You will learn to apply global perspectives and essential leadership tools to the planning and efficient implementation of IT operations to meet organizational objectives.</p>"
 		},
@@ -198,7 +198,7 @@
 			"id": "international-management",
 			"name": "International Management",
 			"icon": "fa-globe",
-			"image": "/img/program-images/international-management.jpg",
+			"image": "img/program-images/international-management.jpg",
 			"degree": "Master - International Management",
 			"description": "<p>To be a business leader in today’s global economy, you’ll need a solid understanding of the economic, political, regulatory, and cultural dynamics that effect multinational enterprises. </p><p>Build on your management skills and business savvy with the knowledge you need to succeed around the world. Legally and effectively manage a multi-cultural, multi-national workforce. Learn how to use technology to keep your organization’s infrastructure, data, and proprietary information secure. Understand how currency exchange rates affect your investments and financial plans. Analyze international markets. Bring all of your knowledge together to develop strategic plans for worldwide business growth.</p><p>CSU-Global’s online masters in international management degree is an excellent choice if you’re a manager in a multinational industry, your company is planning for global expansion, or for anyone who conducts business on an international scale.</p>"
 		},
@@ -206,7 +206,7 @@
 			"id": "project-management",
 			"name": "Project Management",
 			"icon": "fa-dashboard",
-			"image": "/img/program-images/project-management.jpg",
+			"image": "img/program-images/project-management.jpg",
 			"degree": "Master - Project Management",
 			"description": "<p>Whether you’re working with a start-up, small, or large business, in the public or the private sector, this program will give you the interdisciplinary management skills you need to succeed.</p><p>Learn the dynamics of an organization and how to analyze, communicate, and make effective decisions through this online master's in management. You'll study a broad range of business topics, including ethics, finance and economics, international commerce, strategic planning, research analysis, and how to foster a company culture that encourages innovation. In each course in this program, you'll complete a portfolio-quality project that will prove your ability to apply the theory you've learned to real-world business situations.</p><p>If you choose to combine your online master's in management program from CSU-Global with the Specialization in Human Resource Management or Human Resource Performance, you'll complete the curriculum recommended by the Society for Human Resource Management (SHRM) for HR students at the undergraduate and graduate levels.</p>"
 		}

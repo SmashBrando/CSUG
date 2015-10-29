@@ -12,7 +12,17 @@
     
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
-    <script type="text/javascript" src="http://fast.fonts.net/jsapi/fb7162cd-494b-4e05-9803-a3100e269fc7.js"></script>
+
+    <style type="text/css">
+        .secondary .call-action-text {
+            margin-left: 364px;
+            position: absolute;
+            padding: 0;
+
+        }
+    </style>
+
+
 </head>
 
 <body class="master secondary">
@@ -157,73 +167,29 @@
 
 
                     <div class="sticky-sidebar large-4 medium-12 columns">
-                        <div class="rfi-form-container">
+                        <div class="rfi-form-container rfi-sidebar">
                             <div class="class-start">
-                                Classes start <span class="startDateContainer">soon</span>
+                                Start A Better Future Today
                             </div>
                             
-                            <a href="tel:877-522-2250" class="telephone-anchor">
-                                <span class="icon-holder">
-                                    <img src="img/icons/phone.png" width="10" alt="">
-                                </span>
-                                <div class="give-us-a-call">
-                                    Give us a call
-                                    <span class="telephone-text">877-522-2250</span>
-                                </div>
-                            </a>
-                            
-                            <form class="sidebar-rfi" novalidate>
+                            <form class="sidebar-rfi" novalidate="novalidate">
                                 <span class="icon-holder tall">
                                     <img src="img/icons/icon.png" width="10" alt="">
                                 </span>
                                 <h3>Request Information</h3>
+                                <img src="img/support.png">
                                 <p class="opening">Take a step forward. Fill out this form and an Enrollment Counselor will be in touch, or feel free to call us.</p>
                                 <div class="row">
                                     <div class="large-12 columns names">
-                                        <input type="text" placeholder="First Name" id="rfi-fname" name="rfi-fname" required>
+                                        <input type="text" placeholder="First Name" id="rfi-fname" name="rfi-fname" required="" aria-required="true">
 
-                                        <input type="text" placeholder="Last Name" id="rfi-lname" name="rfi-lname" required>
+                                        <input type="text" placeholder="Last Name" id="rfi-lname" name="rfi-lname" required="" aria-required="true">
                                     </div>
                                     <div class="large-12 columns">
-                                        <select name="rfi-program" id="rfi-program" name="rfi-program" required>
-                                            <option value="">Choose a Program</option>
-                                            <option value="BS - Accounting">BS - Accounting</option>
-                                            <option value="BS - Applied Social Sciences">BS - Applied Social Sciences</option>
-                                            <option value="BS - Business Management">BS - Business Management</option>
-                                            <option value="BS - Communication">BS - Communication</option>
-                                            <option value="BS - Criminal Justice and Law Enforcement Administration">BS - Criminal Justice and Law Enforcement Administration</option>
-                                            <option value="BS - Healthcare Administration and Management">BS - Healthcare Administration and Management</option>
-                                            <option value="BS - Human Resource Management">BS - Human Resource Management</option>
-                                            <option value="BS - Human Services">BS - Human Services</option>
-                                            <option value="BS - Information Technology">BS - Information Technology</option>
-                                            <option value="BS - Management Information Systems and Business Analytics">BS - Management Information Systems and Business Analytics</option>
-                                            <option value="BS - Marketing">BS - Marketing</option>
-                                            <option value="BS - Organizational Leadership">BS - Organizational Leadership</option>
-                                            <option value="BS - Project Management">BS - Project Management</option>
-                                            <option value="BS - Public Management">BS - Public Management</option>
-                                            <option value="Master - Criminal Justice and Law Enforcement Administration">Master - Criminal Justice and Law Enforcement Administration</option>
-                                            <option value="Master - Finance">Master - Finance</option>
-                                            <option value="Master - Professional Accounting">Master - Professional Accounting</option>
-                                            <option value="Master - Healthcare Administration and Management">Master - Healthcare Administration and Management</option>
-                                            <option value="Master - Human Resource Management">Master - Human Resource Management</option>
-                                            <option value="Master - Information Technology Management">Master - Information Technology Management</option>
-                                            <option value="Master - International Management">Master - International Management</option>
-                                            <option value="Master - Project Management">Master - Project Management</option>
-                                            <option value="MS - Management">MS - Management</option>
-                                            <option value="MS - Organizational Leadership">MS - Organizational Leadership</option>
-                                            <option value="MS - Teaching and Learning">MS - Teaching and Learning</option>
-                                            <option value="NDS - Non-Degree Seeking">NDS - Non-Degree Seeking</option>
-                                            <option value="NDS - SuccessReady">NDS - SuccessReady</option>
-                                            <option value="Undergraduate Certificate of Completion">Undergraduate Certificate of Completion</option>
-                                            <option value="CTU - Graduate Certificate Programs">CTU - Graduate Certificate Programs</option>
-                                            <option value="EXT - Extended Studies">EXT - Extended Studies</option>
-                                        </select>
+                                        <input type="email" placeholder="Email Address" id="rfi-email" name="rfi-email" required="" aria-required="true">
                                     </div>
                                     <div class="large-12 columns">
-                                        <input type="email" placeholder="Email Address" id="rfi-email" name="rfi-email" required>
-                                    </div>
-                                    <div class="large-12 columns">
-                                        <input type="text" placeholder="Best Phone Number" id="rfiPhone" name="rfiPhone" minlength="10" required>
+                                        <input type="text" placeholder="Best Phone Number" id="rfiPhone" name="rfiPhone" minlength="10" required="" aria-required="true">
                                     </div>
                                     <div class="large-12 columns">
                                         <input type="submit" value="Yes, I want to learn more!" class="form-submit">
@@ -239,7 +205,6 @@
                                 <p>In the meantime, check your inbox for an important welcome message.</p>
                             </div>
                         </div>
-
                         <div class="sidebar-why">
                             <h3>Why CSU-Global?</h3>
                             <ul>
@@ -354,6 +319,7 @@
         <!-- mobile footer: end -->
     </div>
 
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/services.js"></script>
     <script src="js/main.js"></script>
 

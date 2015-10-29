@@ -3201,7 +3201,7 @@ td.show-for-print, th.show-for-print {
     left: 0;
 }
 .call-action-block-holder {
-    width: 95px;
+    width: 325px;
     overflow: hidden;
     z-index: 3;
     clear: both;
@@ -3310,13 +3310,13 @@ a.next-button, a.next-button:hover {
     max-width: 95%}
 .secondary .icon-holder {
     height: 55px;
-    width: 40px;
+    width: 30px;
 }
 .secondary .icon-holder.tall {
     height: 100px;
 }
 .secondary .icon-holder img {
-    height: 55px;
+    height: 30px;
     width: auto;
 }
 .gold-bar {
@@ -3390,6 +3390,7 @@ form .checker label.error {
     letter-spacing: 1px;
 }
 .call-action-holder {
+    width: 325px;
     position: fixed;
     top: 165px;
     right: 0;
@@ -4098,13 +4099,18 @@ div.checker input, div.radio input {
 .rfi-form-container>a, .rfi-form-container>div, .rfi-form-container>form {
     padding: 10px;
 }
-.rfi-form-container>a {
-    background: url(../img/bg/call-bg.png) left bottom;
-    display: block;
-    margin-bottom: 1px;
-    color: #696969;
-}
+
 .rfi-form-container .class-start {
+    margin-bottom: 1px;
+    display: block;
+    font-size: 1.25em;
+    background-color: #d5ce4a;
+    color: #1c2333;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rfi-form-container .form-top {
     margin-bottom: 1px;
     display: block;
     font-size: 1.75em;
@@ -4125,11 +4131,25 @@ div.checker input, div.radio input {
 }
 .rfi-form-container .sidebar-rfi p.opening {
     line-height: 1.1em;
-    font-size: 1em;
+    font-size: .8em;
+    padding-top: 8px;
+}
+
+.sidebar-rfi img {
+    float: left;
+    height: 50px;
+    margin-right: 12px;
 }
 .rfi-form-container .sidebar-rfi p.disclaimer {
     margin: 14px 0 0;
 }
+
+.sidebar-rfi h3 {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 1;
+}
+
 .rfi-form-container .sidebar-rfi div.selector span {
     background: #fff;
     border: 1px solid #ccc;
@@ -4159,7 +4179,6 @@ div.checker input, div.radio input {
 }
 .sidebar-why h3 {
     color: #d5ce4a;
-    padding: 40px 0 15px;
     font-size: 2.25rem;
     line-height: 2.25rem;
 }
@@ -4330,7 +4349,6 @@ div.checker input, div.radio input {
 }
 .sticky-sidebar {
     display: block;
-    margin-top: -180px;
     z-index: 999;
 }
 .secondary .call-action-text {
@@ -4475,7 +4493,7 @@ a.next-button, a.next-button:hover {
 .main-nav {
     display: block;
     height: 30px;
-    width: 50px;
+    width: 60px;
     background: #FFF;
     overflow: hidden;
     margin: 0;
@@ -4554,6 +4572,20 @@ a.next-button, a.next-button:hover {
 .slick-arrow {
 	display: none !important;
 }
+
+.rfi-form-container.rfi-sidebar {
+    margin-top: -100px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.row.row-full {
+    max-width: 1600px;
+}
+
+
+
+
 @media only screen and (min-width:768px) {
 
 	.call-action-text {
@@ -4621,7 +4653,9 @@ a.next-button, a.next-button:hover {
 }
 
 
-
+.slick-slide {
+    outline: none;
+}
 
 
 
