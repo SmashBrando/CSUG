@@ -258,16 +258,16 @@ $(document).ready(function() {
     //getPrograms("bachelorDegrees");
 
     // Email drop down
-    $(function yourInterestClick() {
-        $('#email-program').change(function() {
-            $('#request-content').fadeOut();
-            emailUs.fadeIn();
-            messageItem.addClass("active-class");
-            $('.after-video-block').stop().fadeOut(800);
-            request.removeClass("active-class");
-            phone.removeClass("active-class-phone");
-        });
-    })
+    // $(function yourInterestClick() {
+    //     $('#email-program').change(function() {
+    //         $('#request-content').fadeOut();
+    //         emailUs.fadeIn();
+    //         messageItem.addClass("active-class");
+    //         $('.after-video-block').stop().fadeOut(800);
+    //         request.removeClass("active-class");
+    //         phone.removeClass("active-class-phone");
+    //     });
+    // })
 
     // Close my Email button
     $('.email-close-button').click(
@@ -333,13 +333,13 @@ $(document).ready(function() {
     $('input[type="checkbox"], input[type="radio"], select').uniform();
 
     // Restart the video
-    $(function clickRestartVideo() {
-        $('#restart-video').click(
-            function(e) {
-                hideForms();
-                playVideo();
-            })
-    })
+    // $(function clickRestartVideo() {
+    //     $('#restart-video').click(
+    //         function(e) {
+    //             hideForms();
+    //             playVideo();
+    //         })
+    // })
     $('.input-zip').click(
         function(e) {
             $('.input-zip').addClass("active-zip");
@@ -381,7 +381,7 @@ $(document).ready(function() {
                     $('.after-video-block').fadeOut();
 
                     // show video again
-                    $("#primary-video").fadeIn();
+                    //$("#primary-video").fadeIn();
                     $('.call-action-text').fadeIn();
   
                 }
@@ -640,30 +640,30 @@ $(document).ready(function() {
     });
 
     // Opening video, only play on full size
-    if ($(window).width() > 767) {
-        setTimeout( function(){
-            $("#primary-video").fadeIn(1000, function() {
-                var video = $(this).get(0);
-                video.play();
+    // if ($(window).width() > 767) {
+    //     setTimeout( function(){
+    //         $("#primary-video").fadeIn(1000, function() {
+    //             var video = $(this).get(0);
+    //             video.play();
                 
-                $(this).bind('ended', function(){ 
-                    $("#primary-video").fadeOut(1000, function() {
-                        clickVideo();
-                    });
-                });
-                $(this).bind('pause', function(e) {
-                    if (e.target.paused) {
-                        clickVideo();
-                    } else {
-                        hideForms();
-                        playVideo();
-                    }
-                });
-            });
-        }, 2000);
-    } else {
-        $("#primary-video").show();
-    }
+    //             $(this).bind('ended', function(){ 
+    //                 $("#primary-video").fadeOut(1000, function() {
+    //                     clickVideo();
+    //                 });
+    //             });
+    //             $(this).bind('pause', function(e) {
+    //                 if (e.target.paused) {
+    //                     clickVideo();
+    //                 } else {
+    //                     hideForms();
+    //                     playVideo();
+    //                 }
+    //             });
+    //         });
+    //     }, 2000);
+    // } else {
+    //     $("#primary-video").show();
+    // }
 
     // Fire off GA events 
     $(".give-us-a-call-mobile.header").on("click", function() {

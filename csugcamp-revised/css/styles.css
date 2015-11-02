@@ -2053,7 +2053,7 @@ input[type=text], input[type=password], input[type=date], input[type=datetime], 
     color: rgba(0, 0, 0, .75);
     display: block;
     font-size: .875rem;
-    margin: 0 0 1rem;
+    margin: 0 0 .5rem;
     padding: .5rem;
     height: 2.3125rem;
     width: 100%;
@@ -3135,15 +3135,7 @@ td.show-for-print, th.show-for-print {
     z-index: 111;
     background: url(../img/bg/header-bg.png) left top repeat-x #41536e;
 }
-.main-header:after {
-    background: url(../img/bg/header-arrow.png) left top no-repeat;
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: -28px;
-    width: 95px;
-    height: 28px;
-}
+
 .logo, .main-nav {
     position: absolute;
     z-index: 111;
@@ -4097,7 +4089,7 @@ div.checker input, div.radio input {
     background: #ddd!important;
 }
 .rfi-form-container>a, .rfi-form-container>div, .rfi-form-container>form {
-    padding: 10px;
+    padding: 2px 10px 10px 10px;
 }
 
 .rfi-form-container .class-start {
@@ -4133,6 +4125,7 @@ div.checker input, div.radio input {
     line-height: 1.1em;
     font-size: .8em;
     padding-top: 8px;
+    margin-bottom: .5rem;
 }
 
 .sidebar-rfi img {
@@ -4141,7 +4134,7 @@ div.checker input, div.radio input {
     margin-right: 12px;
 }
 .rfi-form-container .sidebar-rfi p.disclaimer {
-    margin: 14px 0 0;
+    margin: 6px 0 0;
 }
 
 .sidebar-rfi h3 {
@@ -4545,7 +4538,6 @@ a.next-button, a.next-button:hover {
 }
 @media only screen and (min-width:768px) and (max-width:1024px) {
     #primary-video {
-    width: 60%;
     top: 10%;
     height: 60%}
 .call-action-text {
@@ -4574,16 +4566,19 @@ a.next-button, a.next-button:hover {
 }
 
 .rfi-form-container.rfi-sidebar {
-    margin-top: -100px;
+    margin-top: -92px;
     margin-bottom: 25px;
     position: relative;
 }
 
 .row.row-full {
-    max-width: 1600px;
+    max-width: 1400px;
 }
 
-
+.form-home {
+    position: relative;
+    top: 58px;
+}
 
 
 @media only screen and (min-width:768px) {
@@ -4593,7 +4588,7 @@ a.next-button, a.next-button:hover {
 		width: 100%;
 		left: 0;
 		margin: 0;
-		padding: 125px 15px 0 15px;
+		padding: 55px 15px 0 15px;
 	}
 	.flex-video.widescreen {
 		padding: 0;
@@ -4603,11 +4598,14 @@ a.next-button, a.next-button:hover {
 		height: 414px;
 	}
 	#primary-video {
-	    padding: 0!important;
-	    top: 75px;
+	    top: 58px;
 	    position: relative;
 	}
 
+    .rfi-form-container .names input[type=text] {
+        float: left;
+        width: 50%;
+    }
 
 
 
@@ -4657,5 +4655,28 @@ a.next-button, a.next-button:hover {
     outline: none;
 }
 
+@media only screen and (min-width:768px) and (max-width: 1299px) {
+.rfi-form-container .class-start {
+    font-size: 14px;
+}
 
+.rfi-form-container .form-submit {
+    font-size: 12px;
+}
+.rfi-form-container .sidebar-rfi p.disclaimer {
+    font-size: 7px;
+}
 
+}
+
+@media only screen and (max-width:1025px) {
+    .medium-hide {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .form-home {
+        display: none !important;
+    }
+}
