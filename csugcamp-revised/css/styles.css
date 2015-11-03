@@ -4182,7 +4182,6 @@ div.checker input, div.radio input {
     background: #1e4293;
 }
 .static-block .row {
-    background: url(../img/bg/bg-blue.png) left top no-repeat;
     min-height: 450px;
     padding: 70px;
 }
