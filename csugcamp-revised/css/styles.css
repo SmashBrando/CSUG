@@ -3131,7 +3131,7 @@ td.show-for-print, th.show-for-print {
 }
 .main-header {
     position: relative;
-    height: 99px;
+    height: 75px;
     z-index: 111;
     background: url(../img/bg/header-bg.png) left top repeat-x #41536e;
 }
@@ -3139,7 +3139,7 @@ td.show-for-print, th.show-for-print {
 .logo, .main-nav {
     position: absolute;
     z-index: 111;
-    top: 30px;
+    top: 5px;
 }
 .main-nav {
     margin: 25px 0 0 90px;
@@ -4182,8 +4182,9 @@ div.checker input, div.radio input {
     background: #1e4293;
 }
 .static-block .row {
+    background: url(../img/bg/bg-blue.png) left top no-repeat;
     min-height: 450px;
-    padding: 70px;
+    padding: 12px;
 }
 .basic-text {
     color: #d5ce4a;
@@ -4379,7 +4380,7 @@ div.checker input, div.radio input {
     margin: 140px 0 0 30px;
 }
 .call-action-text p {
-    font-size: .688rem;
+    font-size: .85rem;
 }
 .call-action-text h2 {
     font-size: 1.063rem;
@@ -4571,7 +4572,7 @@ a.next-button, a.next-button:hover {
 }
 
 .row.row-full {
-    max-width: 1400px;
+    max-width: 1200px;
 }
 
 .form-home {
@@ -4587,7 +4588,10 @@ a.next-button, a.next-button:hover {
 		width: 100%;
 		left: 0;
 		margin: 0;
-		padding: 55px 15px 0 15px;
+        padding: 25px;
+		background-color: rgba(60,79,107,0.9);
+        margin-top: 58px;
+        min-height: 329px;
 	}
 	.flex-video.widescreen {
 		padding: 0;
@@ -4597,7 +4601,7 @@ a.next-button, a.next-button:hover {
 		height: 414px;
 	}
 	#primary-video {
-	    top: 58px;
+	    
 	    position: relative;
 	}
 
@@ -4605,16 +4609,6 @@ a.next-button, a.next-button:hover {
         float: left;
         width: 50%;
     }
-
-
-
-
-
-
-
-
-
-
 
 	.accordion .accordion-navigation, .accordion dd {
 	    margin-bottom: 0!important;
@@ -4668,7 +4662,7 @@ a.next-button, a.next-button:hover {
 
 }
 
-@media only screen and (max-width:1025px) {
+@media only screen and (max-width:767px) {
     .medium-hide {
         display: none !important;
     }
