@@ -3057,12 +3057,7 @@ td.show-for-print, th.show-for-print {
     display: table-cell!important;
 }
 }.flex-video {
-    position: relative;
-    padding-top: 1.5625rem;
-    padding-bottom: 67.5%;
-    height: 0;
-    margin-bottom: 0;
-    overflow: hidden;
+    
 }
 .flex-video.widescreen {
     padding-bottom: 56.34%}
@@ -3299,7 +3294,8 @@ a.next-button, a.next-button:hover {
     right: 0;
     top: 80px;
     width: 470px;
-    max-width: 95%}
+    max-width: 95%;
+background-color: transparent;}
 .secondary .icon-holder {
     height: 55px;
     width: 30px;
@@ -4466,7 +4462,7 @@ a.next-button, a.next-button:hover {
     display: block;
 }
 .action-block {
-    position: initial;
+    position: ;
 }
 .flexvideo.vimeo {
     padding: 0;
@@ -4537,9 +4533,6 @@ a.next-button, a.next-button:hover {
 }
 }
 @media only screen and (min-width:768px) and (max-width:1024px) {
-    #primary-video {
-    top: 10%;
-    height: 60%}
 .call-action-text {
     left: 62.5%}
 }
@@ -4580,7 +4573,9 @@ a.next-button, a.next-button:hover {
     top: 58px;
 }
 
-
+.flex-video {
+        height: 414px;
+    }
 @media only screen and (min-width:768px) {
 
 	.call-action-text {
@@ -4648,6 +4643,16 @@ a.next-button, a.next-button:hover {
     outline: none;
 }
 
+.call-action-text p img {
+    max-width: 225px;
+    border-radius: 5px;
+    display: inline !important;
+    float: left;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
 @media only screen and (min-width:768px) and (max-width: 1299px) {
 .rfi-form-container .class-start {
     font-size: 14px;
@@ -4663,8 +4668,31 @@ a.next-button, a.next-button:hover {
 }
 
 @media only screen and (max-width:767px) {
+    .call-action-text p img {
+        max-width: 100px;
+    }
+
+    .featured-area .bg {
+        max-height: 345px;
+    }
     .medium-hide {
         display: none !important;
+    }
+    .call-action-text {
+        position: relative;
+        width: 100%;
+        left: 0;
+        margin: 0;
+        padding: 25px;
+        background-color: rgba(60,79,107,0.9);
+        margin-top: 58px;
+        min-height: 275px;
+    }
+    .call-action-text p {
+        font-size: .85em;
+    }
+    .call-action-text h2 {
+        font-size: 1.25em;
     }
 }
 
