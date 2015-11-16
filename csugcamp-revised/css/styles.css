@@ -3982,7 +3982,7 @@ div.checker input, div.radio input {
     padding: 0;
 }
 .accordion {
-    margin: 0 -.9375em;
+    margin: 0;
 }
 .accordion .accordion-navigation>.content, .accordion dd>.content {
     padding: 0 1.5rem .5rem;
@@ -4488,8 +4488,8 @@ a.next-button, a.next-button:hover {
     margin: 0;
     position: fixed;
     float: right;
-    top: 3px;
-    right: 3px;
+    top: 15px;
+    right: 25px;
     border-radius: 2px;
     border: 1px solid #1B2232;
 }
@@ -4602,7 +4602,7 @@ a.next-button, a.next-button:hover {
 
     .rfi-form-container .names input[type=text] {
         float: left;
-        width: 50%;
+        width: 100%;
     }
 
 	.accordion .accordion-navigation, .accordion dd {
@@ -4700,4 +4700,18 @@ a.next-button, a.next-button:hover {
     .form-home {
         display: none !important;
     }
+}
+
+@media only screen and (max-width:400px) {
+    .call-action-text p {
+        font-size: .6em;
+    }
+    .call-action-text h2 {
+        font-size: 1em;
+    }
+}
+
+.form-group {
+    width: 50%;
+    float: left;
 }
