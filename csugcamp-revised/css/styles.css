@@ -4667,6 +4667,12 @@ a.next-button, a.next-button:hover {
 
 }
 
+@media only screen and (max-width:1199px) {
+    .call-action-text p img {
+        max-width: 125px;
+    }
+}
+
 @media only screen and (max-width:767px) {
     .call-action-text p img {
         max-width: 100px;
