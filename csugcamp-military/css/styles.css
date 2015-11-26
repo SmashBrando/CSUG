@@ -4653,6 +4653,14 @@ a.next-button, a.next-button:hover {
     margin-bottom: 15px;
 }
 
+span.title {
+    display: inline-block;
+    margin: 28px 0 0 125px;
+    color: #fff;
+    font-size: 20px;
+    float: right;
+}
+
 @media only screen and (min-width:768px) and (max-width: 1299px) {
 .rfi-form-container .class-start {
     font-size: 14px;
@@ -4700,11 +4708,19 @@ a.next-button, a.next-button:hover {
     .call-action-text h2 {
         font-size: 1.25em;
     }
+    
 }
 
 @media only screen and (max-width:767px) {
     .form-home {
         display: none !important;
+    }
+    span.title {
+        display: inline-block;
+        margin: 20px 100px 0 0;
+        color: #fff;
+        font-size: 20px;
+        float: right;
     }
 }
 
