@@ -4652,6 +4652,13 @@ a.next-button, a.next-button:hover {
     margin-right: 15px;
     margin-bottom: 15px;
 }
+span.title {
+    display: inline-block;
+    margin: 28px 0 0 125px;
+    color: #fff;
+    font-size: 20px;
+    float: right;
+}
 
 @media only screen and (min-width:768px) and (max-width: 1299px) {
 .rfi-form-container .class-start {
